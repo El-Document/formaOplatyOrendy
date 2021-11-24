@@ -1,0 +1,149 @@
+body {
+  background-color: #f6f6f6;
+}
+
+header {
+  background-color: #c059d4;
+  height: 80px;
+  margin: -10px;
+}
+
+main {
+  margin-top: -16px;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.main {
+  display: flex;
+}
+
+.pay {
+  background-color: white;
+  padding-top: 10px;
+}
+.left {
+  width: 68.1%;
+}
+
+.title {
+  text-align: center;
+  width: 68.1%;
+  font-weight: bold;
+  font-size: 30px;
+  color: #c059d4;
+}
+.price {
+  padding: 10px 20px;
+  margin: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+}
+.mail {
+  text-align: center;
+  font-weight: bold;
+}
+.faf {
+  position: absolute;
+}
+.chek {
+  text-align: center;
+}
+.button2 {
+  font-size: 20px;
+  cursor: pointer;
+  color: #c059d4;
+  border: 2px solid #c059d4;
+  padding: 10px 20px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.button {
+  text-align: center;
+  color: #c059d4;
+  border: 2px solid #c059d4;
+  padding: 10px 20px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  display: block;
+}
+.btn_cont {
+  text-decoration: none;
+}
+.umova {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: fit-content;
+}
+.inputCont {
+  text-align: center;
+}
+.pricePdv {
+  padding: 10px 20px;
+  margin: 0px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #f6f6f6;
+}
+.img {
+  margin-left: 10px;
+  background-color: white;
+}
+
+.pdf {
+  font-size: 15px;
+  color: gray;
+}
+.centerText {
+  text-align: center;
+  font-weight: bold;
+}
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+}
+.popup2:target {
+  opacity: 1;
+  visibility: visible;
+}
+.popup_body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+.popup_content {
+  background-color: white;
+  color: black;
+  max-width: 650px;
+  max-height: 80vh;
+  padding: 30px 10px;
+  position: relative;
+  overflow: scroll;
+}
+.popup_content img {
+  margin: 0 auto;
+}
+.popup_close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
